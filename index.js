@@ -1,9 +1,11 @@
 
-const d2=new Date("2025/08/27");
+let d2=new Date("2025/08/27");
 
 function count_down(){
     const d1=new Date();
+    if((d2-d1)<0) d2.setFullYear(d1.getFullYear()+1);
     const diff=d2-d1;
+
     //
     const day=Math.floor(diff/(1000*60*60*24));
     const hr=Math.floor(diff/(1000*60*60))%24;

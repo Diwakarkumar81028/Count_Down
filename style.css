@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(49, 49, 216);
+    color: rgb(209, 114, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body >h1{
+    font-size:3rem;
+    color: gold;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 10px;
+    gap: 0.8rem;
+    color: white;
+    background-color: rgb(236, 160, 19);
+}
